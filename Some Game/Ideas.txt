@@ -1,0 +1,28 @@
+Space Top-Down Scrolling Shooter
+
+Weapon unlocking & switching (left & right guns can be swapped out)
+Tutorial does 1st mission, teaches player about weapon shop & weapon switching along with game's combat.
+(Some number) Of planets, must do tutorial planet first, then other planets may be done in any order,
+however planets would differ in difficulty.
+Weapons have 5 tiers, first 3 tiers cost (currency), tiers 4 and 5 would cost (currency) & some materials
+dropped from bosses.
+Completing some missions (Maybe completing a planet?) unlocks a new blueprint, which you can pay the
+gun crafter to make into a weapon.
+Endless mode: Open space, sends progressively harder waves of enemies with amped up versions of bosses
+every certain amount of waves. May also unlock different color schemes.
+Each planet is unique in some way other than having a different boss.
+Currency is earned through completing missions & killing enemies during missions.
+
+Replayability factors: Endless mode (to a certain extent, would probably get boring after a while),
+maybe challenge modes? (Such as planet missions with stronger enemies), Trying missions with different
+weapons, unlocking higher weapon tiers (may require multiple boss kills), ACHIEVEMENTS (in all caps
+because its important for a game of this type, achievements could include bronze - silver - gold medals
+on missions (for killing 60%, 85%, 100% of enemies on a mission) or getting some amount of waves in
+endless mode). this amount of replayability factors may not be enough to make the game worth it, need to
+think of more. 
+
+
+Main Story: You are a gifted member of the rebel faction, tasked with freeing the planets of
+(solar system name) from the tyranny of (enemy faction name). The rebel faction is short on members and
+entrusted you alone with completing this mission.
+
