@@ -27,9 +27,21 @@ if(AttackSpeed <= 0)
 	else
 	{
 			// store the starting angle for the first bullet
-		var tempAngle = -9;
+		var tempAngle = 0;
+		if(ShotgunBullets == 3)
+		{
+			tempAngle = -9;
+		}
+		else if(ShotgunBullets == 5)
+		{
+			tempAngle = -18;
+		}
+		else
+		{
+			tempAngle = -27;
+		}
 		// loop through the amount of times you want to spawn a bullet
-		for(var i = 0; i < 3; ++i)
+		for(var i = 0; i < ShotgunBullets; ++i)
 		{
 			//calculate the angle of the bullet we are firing	
 			var shotgunBulletDirection = point_direction(x, y, PlayerShip.x, PlayerShip.y) + tempAngle + random_range(-1, 1);

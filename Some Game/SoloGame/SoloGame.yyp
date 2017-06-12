@@ -111,6 +111,22 @@
             }
         },
         {
+            "Key": "5ee38581-cefb-4d6c-b56b-0d63200c5d67",
+            "Value": {
+                "id": "9ca5112d-4566-4be4-8495-b956e77cbe8a",
+                "resourcePath": "sprites\\Texture_BasicBossPrototype\\Texture_BasicBossPrototype.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "61cff805-8263-4289-9e2f-7b90d0a77939",
+            "Value": {
+                "id": "15525c3f-6c84-44ea-8aaa-6ad0539e35cc",
+                "resourcePath": "objects\\BasicBossPrototype\\BasicBossPrototype.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "67ee8749-9451-4c3b-bf5a-02ff9382134c",
             "Value": {
                 "id": "e34b8627-aeb4-483e-98f0-593c5a170ed7",
@@ -276,6 +292,14 @@
                 "id": "29d8396a-5dcd-45d6-b6a7-8381d29261f2",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7a5fa3c-0ea5-4e88-a5ec-27da361c7d7e",
+            "Value": {
+                "id": "a5c0dd72-630f-4dad-8fee-ad5ca7dfe083",
+                "resourcePath": "sprites\\Texture_PlayerShipPrototypeDamaged\\Texture_PlayerShipPrototypeDamaged.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
