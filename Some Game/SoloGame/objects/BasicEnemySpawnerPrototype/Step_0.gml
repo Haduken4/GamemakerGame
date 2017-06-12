@@ -1,51 +1,55 @@
 
-if(SpawnRate <= 0)
+
+if(Wave < 40)
 {
-	var AmountToSpawn = round(EnemyDeathCount / 10) + 3;
-
-	
-	if(AmountToSpawn < 3)
+	if(SpawnRate <= 0)
 	{
-		AmountToSpawn = 3;
-	}
+		var AmountToSpawn = round(EnemyDeathCount / 10) + 3;
 
-	if(Wave == 30) || (Wave == 40)
-	{
-		var RandomX = x +random_range(-100, 100);
 	
-		instance_create_layer(RandomX, y, "EnemyLayer", BasicBossPrototype);
-		
-		AmountToSpawn -= 10;
-	}
-
-	var i = 0;
-	var Boolean = true;
-
-	while(Boolean)
-	{
-		var RandomX = x + random_range(-500, 500);
-	
-		instance_create_layer(RandomX, y, "EnemyLayer", BasicEnemyPrototype)
-	
-		i += 1;
-	
-		if(i >= AmountToSpawn)
+		if(AmountToSpawn < 3)
 		{
-			Boolean = false;
+			AmountToSpawn = 3;
+		}
+
+		if(Wave == 29) || (Wave == 39)
+		{
+			var RandomX = x + random_range(-100, 100);
+	
+			instance_create_layer(RandomX, y, "EnemyLayer", BasicBossPrototype)
+		
+			AmountToSpawn -= 10;
+		}
+
+		var i = 0;
+		var Boolean = true;
+
+		while(Boolean)
+		{
+			var RandomX = x + random_range(-500, 500);
+	
+			instance_create_layer(RandomX, y, "EnemyLayer", BasicEnemyPrototype)
+	
+			i += 1;
+	
+			if(i >= AmountToSpawn)
+			{
+				Boolean = false;
+			}
+	
 		}
 	
-	}
 	
+		SpawnRate = 500;
 	
-	SpawnRate = 500;
+		with(WaveCounter)
+		{
+			CurrentWave += 1;
+		}
 	
-	with(WaveCounter)
-	{
-		CurrentWave += 1;
-	}
-	
-	Wave += 1;
+		Wave += 1;
 
+	}
 }
 
 

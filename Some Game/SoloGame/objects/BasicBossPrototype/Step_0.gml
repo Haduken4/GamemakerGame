@@ -5,7 +5,7 @@ if(Health <= 0)
 {
 	with(BasicEnemySpawnerPrototype)
 	{
-		EnemyDeathCount += 1;
+		EnemyDeathCount += 5;
 	}
 
 	instance_destroy();
@@ -26,7 +26,7 @@ if(AttackSpeed1 <= 0)
 if(AttackSpeed2 <= 0)
 {
 	// store the starting angle for the first bullet
-		
+	var ShotgunBullets = choose(5, 5, 5, 3, 3, 7);
 	var tempAngle = 0;
 	if(ShotgunBullets == 3)
 	{

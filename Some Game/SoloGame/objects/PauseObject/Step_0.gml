@@ -13,4 +13,5 @@ if(keyboard_check_pressed(ord("P")))
 		instance_activate_all();
 		Paused = !Paused;
 	}
+	
 }
