@@ -4,6 +4,12 @@ if(Wave < 40)
 {
 	if(SpawnRate <= 0)
 	{
+		with(WaveCounter)
+		{
+			CurrentWave += 1;
+		}
+	
+		Wave += 1;
 		var AmountToSpawn = round(EnemyDeathCount / 10) + 3;
 
 	
@@ -12,13 +18,14 @@ if(Wave < 40)
 			AmountToSpawn = 3;
 		}
 
-		if(Wave == 29) || (Wave == 39)
+		if(Wave mod 15 == 0)
 		{
 			var RandomX = x + random_range(-100, 100);
+			var RandomY = y + random_range(-30, 30);
 	
-			instance_create_layer(RandomX, y, "EnemyLayer", BasicBossPrototype)
+			instance_create_layer(RandomX, RandomY, "EnemyLayer", BasicBossPrototype)
 		
-			AmountToSpawn -= 10;
+			AmountToSpawn -= 12;
 		}
 
 		var i = 0;
@@ -27,8 +34,9 @@ if(Wave < 40)
 		while(Boolean)
 		{
 			var RandomX = x + random_range(-500, 500);
+			var RandomY = y + random_range(-30, 30);
 	
-			instance_create_layer(RandomX, y, "EnemyLayer", BasicEnemyPrototype)
+			instance_create_layer(RandomX, RandomY, "EnemyLayer", BasicEnemyPrototype)
 	
 			i += 1;
 	
@@ -40,14 +48,9 @@ if(Wave < 40)
 		}
 	
 	
-		SpawnRate = 500;
+		SpawnRate = 500 + EnemyDeathCount * 2 + Wave;
 	
-		with(WaveCounter)
-		{
-			CurrentWave += 1;
-		}
-	
-		Wave += 1;
+
 
 	}
 }

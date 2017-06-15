@@ -1,6 +1,6 @@
 SpawnRate = 500;
 
-Wave = 39;
+Wave = 0;
 
 EnemyDeathCount = 0;
 
