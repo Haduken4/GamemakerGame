@@ -1,4 +1,38 @@
-y += MoveSpeed;
+if(y < StartingY + 300)
+{
+	y += YMoveSpeed;
+}
+else
+{
+	if(XBoolean)
+	{
+		x += XMoveSpeed;
+		if(x >= room_width - 96)
+		{
+			XBoolean = !XBoolean;
+			XMoveSpeed -= 0.5;
+		}
+		if(XMoveSpeed != 1.3)
+		{
+			XMoveSpeed += 0.01;
+		}
+	}
+	else
+	{
+		x -= XMoveSpeed;
+		if(x <= 96)
+		{
+			XBoolean = !XBoolean;
+			XMoveSpeed -= 0.5
+		}
+		if(XMoveSpeed != 1.3)
+		{
+			XMoveSpeed += 0.01;
+		}
+	}
+	
+	
+}
 
 
 if(Health <= 0)
@@ -7,6 +41,8 @@ if(Health <= 0)
 	{
 		EnemyDeathCount += 5;
 	}
+	
+	instance_create_layer(x, y, "PickupLayer", HealthPickupObject);
 
 	instance_destroy();
 }
@@ -30,15 +66,15 @@ if(AttackSpeed2 <= 0)
 	var tempAngle = 0;
 	if(ShotgunBullets == 3)
 	{
-		tempAngle = -9;
+		tempAngle = -12;
 	}
 	else if(ShotgunBullets == 5)
 	{
-		tempAngle = -18;
+		tempAngle = -24;
 	}
 	else
 	{
-		tempAngle = -27;
+		tempAngle = -36;
 	}
 	// loop through the amount of times you want to spawn a bullet
 	for(var i = 0; i < ShotgunBullets; ++i)
@@ -49,7 +85,7 @@ if(AttackSpeed2 <= 0)
 		var Bullet = instance_create_layer(x, y, "EnemyBulletLayer", BasicEnemyBullet);
 		Bullet.direction = shotgunBulletDirection;
 		Bullet.image_angle = shotgunBulletDirection;
-		tempAngle += 9;
+		tempAngle += 12;
 	}
 	AttackSpeed2 = irandom_range(80, 100);
 }

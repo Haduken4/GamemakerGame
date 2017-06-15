@@ -1,4 +1,4 @@
-SpawnRate = 500;
+SpawnRate = 750;
 
 Wave = 0;
 
