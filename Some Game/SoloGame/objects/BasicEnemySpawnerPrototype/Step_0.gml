@@ -54,6 +54,21 @@ if(Wave < 40)
 
 	}
 }
+else
+{
+	if(instance_number(BasicEnemyPrototype) == 0) && (instance_number(BasicBossPrototype) == 0)
+	{
+		Won = true;
+		WinTimer -= 1;
+		
+		if(WinTimer == 0)
+		{
+			room_goto_next();
+		}
+	}
+	
+	
+}
 
 
 

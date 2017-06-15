@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "338190cc-f5b6-40d3-88eb-e14943de9b45",
+            "Value": {
+                "id": "af84e48b-4623-4431-879a-aa32c3f6e2ee",
+                "resourcePath": "sprites\\Firework\\Firework.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "415e4e50-6386-4462-b464-2429d31b4287",
             "Value": {
                 "id": "b429f6aa-b6b0-4d27-ab37-44246dea5b8f",
@@ -103,11 +111,27 @@
             }
         },
         {
+            "Key": "561977d3-bd06-45b4-8640-84068a863c51",
+            "Value": {
+                "id": "d95a7587-b786-48c1-9c3d-f59f2d17552d",
+                "resourcePath": "objects\\WinScreenText\\WinScreenText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59bcf9d3-c571-4b1b-b5af-7bc689557003",
             "Value": {
                 "id": "d2d17825-610a-447e-84f6-c5c7a834022a",
                 "resourcePath": "sprites\\Texture_BasicBullet\\Texture_BasicBullet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5c0931a7-d360-4e3d-a4fd-0acebae9f3ad",
+            "Value": {
+                "id": "0ab47e22-5ac8-4219-9918-656bce0bfda8",
+                "resourcePath": "rooms\\MainMenu\\MainMenu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -123,6 +147,14 @@
             "Value": {
                 "id": "15525c3f-6c84-44ea-8aaa-6ad0539e35cc",
                 "resourcePath": "objects\\BasicBossPrototype\\BasicBossPrototype.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "64185719-b5e7-45d2-bb9e-a5b2256828d4",
+            "Value": {
+                "id": "566ffbc3-22d0-40e3-b02f-b8b411b2f18a",
+                "resourcePath": "objects\\MainMenuText\\MainMenuText.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -146,7 +178,7 @@
             "Key": "69b00c64-9af7-41cf-ad17-4a0c515fb878",
             "Value": {
                 "id": "6dae3e01-4002-41f3-8e3e-dc730b0f3613",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\MainRoom\\MainRoom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -183,6 +215,14 @@
             }
         },
         {
+            "Key": "770141d6-6005-446b-89ef-4d4209a7ec72",
+            "Value": {
+                "id": "97100ffe-9233-489a-898d-3af558b2787e",
+                "resourcePath": "rooms\\WinScreen\\WinScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7eb0593f-95fc-41f8-88f2-126606b8eeaa",
             "Value": {
                 "id": "ba1be908-50cc-449f-933d-a460572160c7",
@@ -199,6 +239,14 @@
             }
         },
         {
+            "Key": "8dd15b40-0696-4a66-893a-10480d8bec38",
+            "Value": {
+                "id": "b6469e72-8834-4d79-893a-cfda149fd1b9",
+                "resourcePath": "objects\\FireworkSpawner\\FireworkSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9d7b99d8-e6d4-4de5-a640-b0a692e3de89",
             "Value": {
                 "id": "4a9c2c38-1769-4d2d-af34-b0d080c3fe62",
@@ -212,6 +260,14 @@
                 "id": "75883dd4-e30e-4b97-b5a2-c4013b2fcf1f",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "af3b2dd1-be87-406e-be05-5de6d2c0aa3c",
+            "Value": {
+                "id": "d2e5fdc4-8c65-438d-ab62-02e31b160e9a",
+                "resourcePath": "objects\\FireworkObject\\FireworkObject.yy",
+                "resourceType": "GMObject"
             }
         },
         {
