@@ -47,8 +47,14 @@ if(Wave < 40)
 	
 		}
 	
-	
-		SpawnRate = 500 + EnemyDeathCount * 2 + Wave;
+		if(Wave mod 15 != 0)
+		{
+			SpawnRate = 500 + EnemyDeathCount * 2 + Wave * 5;
+		}
+		else if(Wave mod 15 == 0)
+		{
+			SpawnRate = 1000 + EnemyDeathCount * 2 + Wave * 5;
+		}
 	
 
 
