@@ -26,6 +26,10 @@ if(Wave < 40)
 			instance_create_layer(RandomX, RandomY, "EnemyLayer", BasicBossPrototype)
 		
 			AmountToSpawn -= 12;
+			if(AmountToSpawn < 0)
+			{
+				AmountToSpawn = 0;
+			}
 		}
 
 		var i = 0;
@@ -53,7 +57,7 @@ if(Wave < 40)
 		}
 		else if(Wave mod 15 == 0)
 		{
-			SpawnRate = 1000 + EnemyDeathCount * 2 + Wave * 5;
+			SpawnRate = 2000 + EnemyDeathCount * 2 + Wave * 5;
 		}
 	
 

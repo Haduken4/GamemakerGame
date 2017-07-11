@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "b1e7cfbe-42ab-4855-bd35-1b4f7020a812",
+            "Value": {
+                "id": "4b5be7ff-b484-458f-bf0e-0a2188fd94de",
+                "resourcePath": "objects\\BasicBulletExplosion\\BasicBulletExplosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bcf47bb1-c512-4367-b23f-f787f2689f9a",
             "Value": {
                 "id": "553cf02a-e324-4cf5-8f8d-66f9e69730da",
@@ -356,6 +364,14 @@
                 "id": "4b210d06-af14-4554-aac3-72e317d400a4",
                 "resourcePath": "views\\eaed20de-829a-4f65-85b6-29bdda4c025c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ebc5a2b8-aa72-4e8f-9ea9-8cec219ab252",
+            "Value": {
+                "id": "aa8e5eb4-f019-42eb-a249-460dbe1f6336",
+                "resourcePath": "sprites\\Texture_BasicBulletExplosion\\Texture_BasicBulletExplosion.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
